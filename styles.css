@@ -1,0 +1,95 @@
+:root {
+  --primary: #00a86b;
+  --dark: #0f172a;
+  --light: #f5f7fb;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: var(--light);
+}
+
+/* LOGIN */
+.center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #007a4d;
+}
+
+/* DASHBOARD */
+.hidden {
+  display: none;
+}
+
+header {
+  background: var(--dark);
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wa {
+  background: var(--primary);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.about, .resume {
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.small {
+  font-size: 12px;
+  color: gray;
+}
+
+/* JOBS */
+.jobs {
+  padding: 15px;
+}
+
+.card {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+footer {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Company Job Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginPage" class="center">
+  <h2>🏢 Company Job Portal</h2>
+
+  <input type="text" id="name" placeholder="Enter Name">
+  <input type="email" id="email" placeholder="Enter Email">
+
+  <button onclick="login()">Login</button>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard" class="hidden">
+
+  <header>
+    <div>🏢 Company Job Portal</div>
+
+    <a class="wa" href="https://wa.me/919876543210" target="_blank">
+      💬 WhatsApp
+    </a>
+  </header>
+
+  <section class="about">
+    <h3>About Company</h3>
+    <p>We are hiring for multiple IT & Business roles. Apply and grow your career.</p>
+  </section>
+
+  <section class="resume">
+    <h3>Upload Resume (PDF)</h3>
+    <input type="file" id="resume" accept=".pdf">
+    <p class="small">*This is frontend demo (file not stored)</p>
+  </section>
+
+  <section class="jobs">
+    <h3>Job Openings</h3>
+    <div id="jobList"></div>
+  </section>
+
+  <p id="msg"></p>
+
+  <footer>
+    © 2026 Company Job Portal. All Rights Reserved.
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
